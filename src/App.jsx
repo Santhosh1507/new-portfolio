@@ -139,17 +139,17 @@ function App() {
               <div className="border border-gray-500 rounded-md p-5 flex-1 hover:scale-110 duration-100 hover:rotate-2">
                 <img src={Project2} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
-                  Designer furniture store landing page
+                  Designer coffee shop store landing page
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS layout for online store of designer
-                  furniture. HTML5, CSS3 (SCSS)
+                  Responsive Reactjs layout for online store of designer
+                  coffee shop. HTML5, Tailwindcss
                 </p>
                 <div className="flex gap-2 mt-12">
-                  <a href="" className="flex-1 text-sm py-3 text-center bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                  <a href="https://coffee-cup-shop.netlify.app/" className="flex-1 text-sm py-3 text-center bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                     Live preview
                   </a>
-                  <a href="" className="flex-1 text-sm text-center py-3 border rounded-full hover:border-blue-500 hover:text-blue-500" >
+                  <a href="https://github.com/Santhosh1507/coffee-shop.git" className="flex-1 text-sm text-center py-3 border rounded-full hover:border-blue-500 hover:text-blue-500" >
                     Checkout github
                   </a>
                 </div>

@@ -56,7 +56,7 @@ function App() {
     <div className="max-w-7xl m-auto relative">
       <header className={`${scrolling ? 'border-b border-gray-900' : ''}  fixed left-0 right-0 top-0 z-20`} id="home">
         <div className="container m-auto px-4 py-6 max-w-full bg-black border-b-2 border-b-stone-800">
-          <div className="flex flex-col gap-4 sm:flex-row justify-between items-center px-24">
+          <div className="flex flex-col gap-4 sm:flex-row justify-between items-center sm:px-24">
             <div>
               <h1 className="font-bold text-2xl">Portfolio</h1>
             </div>

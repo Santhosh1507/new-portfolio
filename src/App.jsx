@@ -61,7 +61,7 @@ function App() {
               <h1 className="font-bold text-2xl">Portfolio</h1>
             </div>
             <div>
-              <ul className="flex gap-4">
+              <ul className="flex gap-2 md:gap-4">
                 <li>
                   <a href="#projects" className="text-gray-400 hover:text-white cursor-pointer">
                     Projects
@@ -92,9 +92,9 @@ function App() {
         <section>
           <div className="container m-auto px-4 pt-12 pb-12 sm:pt-20 flex  flex-col-reverse sm:flex-row gap-6 text-center sm:text-left">
             <div className=" mt-16">
-              <h2 className="font-bold text-4xl">Hello, I'm Santhosh Kumar,</h2>
+              <h2 className="font-bold text-3xl md:text-4xl">Hello, I'm Santhosh Kumar,</h2>
               <div>
-                <h2 className="font-bold text-4xl mt-1 gradiant-text">web developer</h2>
+                <h2 className="font-bold text-3xl md:text-4xl mt-1 gradiant-text">web developer</h2>
               </div>
               <div>
                 <p className="mt-4 text-gray-400">

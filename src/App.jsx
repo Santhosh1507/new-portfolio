@@ -102,9 +102,11 @@ function App() {
                   competent development skills with focus on collaboration,
                   communication, and passion
                 </p>
+                <a href="https://drive.google.com/file/d/1gQkzsXr_XDAAEIi91NCScvAI3wWBrOvs/view?usp=drive_link" className=" mt-10">
                 <button className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                   Download resume
                 </button>
+                </a>
               </div>
             </div>
             <div className="relative">
@@ -119,15 +121,15 @@ function App() {
           <div className="container m-auto px-4 sm:py-12">
             <h2 className="text-2xl font-semibold">Projects</h2>
             <div className="flex flex-col sm:flex-row gap-16 mt-11 max-w-5xl m-auto">
-              <div className="border border-gray-500 rounded-md p-5 flex-1 hover:scale-110 duration-100 hover:-rotate-2">
+              <div className="border border-gray-500 rounded-md p-5 flex-1 hover:scale-110 duration-100 hover:rotate-2">
                 <img src={Project1} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
-                  Furniture store landing page
+                Furniture store landing page
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS/Javascript layout for online furniture store.
+                Responsive HTML/CSS/Javascript layout for online furniture store.
                 </p>
-                <div className="flex mt-12 gap-2">
+                <div className="flex gap-2 mt-20">
                   <a href="https://furniture-store-landing-page.netlify.app/" className="flex-1 text-sm py-3 text-center bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                     Live preview
                   </a>
@@ -143,7 +145,7 @@ function App() {
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
                   Responsive Reactjs layout for online store of designer
-                  coffee shop. HTML5, Tailwindcss
+                  coffee shop. HTML5, Tailwindcss.
                 </p>
                 <div className="flex gap-2 mt-12">
                   <a href="https://coffee-cup-shop.netlify.app/" className="flex-1 text-sm py-3 text-center bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
@@ -159,17 +161,17 @@ function App() {
               <div className="border border-gray-500 rounded-md p-5 flex-1 hover:scale-110 duration-100 hover:-rotate-2">
                 <img src={Project3} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
-                  Landing page for front-end developer
+                  Landing page gym website for front-end developer
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS layout for landing page for front-end
-                  developer. HTML5, CSS3 (SCSS)
+                  Responsive Reactjs layout for landing page gym website for front-end
+                  developer. HTML5, Tailwindcss.
                 </p>
                 <div className="flex gap-4 mt-12">
-                  <a href="" className="flex-1 text-sm py-3 text-center bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                  <a href="https://main--gym-finess-web.netlify.app/" className="flex-1 text-sm py-3 text-center bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                     Live preview
                   </a>
-                  <a href="" className="flex-1 text-sm text-center py-3 border rounded-full hover:border-blue-500 hover:text-blue-500" >
+                  <a href="https://github.com/Santhosh1507/gym-fitness-web.git/" className="flex-1 text-sm text-center py-3 border rounded-full hover:border-blue-500 hover:text-blue-500" >
                     Checkout github
                   </a>
                 </div>
@@ -177,17 +179,16 @@ function App() {
               <div className="border border-gray-500 rounded-md p-5 flex-1 hover:scale-110 duration-100 hover:rotate-2">
                 <img src={Project4} className="w-full h-auto" />
                 <h3 className="text-2xl font-semibold mt-8">
-                  Website redesign for The Venus project
+                  Website design for The frontend/backend developer project
                 </h3>
                 <p className="text-gray-400 text-sm mt-2">
-                  Responsive HTML/CSS layout for The Venus project. HTML5, CSS3
-                  (SCSS)
+                  Responsive Reactjs/Nodejs/Expressjs layout for The Venus project. HTML5, Tailwindcss, Rest Api.
                 </p>
                 <div className="flex gap-2 mt-12">
-                  <a href="" className="flex-1 text-sm py-3 text-center bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                  <a href="https://food-hotel-mern-frontend.vercel.app/" className="flex-1 text-sm py-3 text-center bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
                     Live preview
                   </a>
-                  <a href="" className="flex-1 text-sm text-center py-3 border rounded-full hover:border-blue-500 hover:text-blue-500" >
+                  <a href="https://github.com/Santhosh1507/food-hotel-mern.git" className="flex-1 text-sm text-center py-3 border rounded-full hover:border-blue-500 hover:text-blue-500" >
                     Checkout github
                   </a>
                 </div>

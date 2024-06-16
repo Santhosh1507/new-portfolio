@@ -7,13 +7,16 @@ import Project4 from "./assets/project4.png";
 import LinkedIn from "./assets/linkedin.svg";
 import Instagram from "./assets/instagram.svg";
 import ArrowDown from "./assets/arrow-down.svg";
+import Menu from "./assets/menu.png"
 import { useEffect, useState } from "react";
 import React from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { RiMenu3Line } from "react-icons/ri";
 
 function App() {
   const [scrolling, setScrolling] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
   const [result, setResult] = React.useState("");
 
   const onPageScroll = () => {
@@ -62,32 +65,39 @@ function App() {
   };
 
   return (
-    <div className="max-w-7xl m-auto relative">
-      <header className={`${scrolling ? 'border-b border-gray-900' : ''}  fixed left-0 right-0 top-0 z-20`} id="home">
-        <div className="container m-auto px-4 py-6 max-w-full bg-black border-b-2 border-b-stone-800">
-          <div className="flex flex-col gap-4 sm:flex-row justify-between items-center sm:px-24 ">
+    <div className=" max-w-7xl m-auto relative">
+      <header className={`${scrolling ? 'border-b border-gray-900' : ''} fixed left-0 right-0 top-0 z-20`} id="home">
+      <div className="container px-0 sm:px-4 py-6 bg-black text-center border-b-2 border-b-stone-800">
+          <div className="flex flex-row px-6 gap-4 sm:flex-row justify-between sm:px-24">
             <div>
-              <h1 className="font-bold text-2xl" data-aos="fade-down" data-aos-duration="1000" >Portfolio</h1>
+              <h1 className="font-bold text-2xl">Portfolio</h1>
             </div>
             <div>
-              <ul className="flex gap-2 md:gap-4">
+              <div className="sm:hidden">
+              <img  src={
+            menuOpen
+              ? {Menu}
+              : {Menu}
+          } alt="" onClick={() => setMenuOpen(!menuOpen)}/>
+              </div>
+              <ul className={`flex flex-col sm:flex-row gap-2 md:gap-4 sm:items-center sm:static absolute bg-black sm:bg-transparent w-full sm:w-auto transition-transform transform ${menuOpen ? 'translate-y-0' : '-translate-y-full'} sm:translate-y-0`}>
                 <li>
-                  <a href="#projects" className="text-gray-400 hover:text-white cursor-pointer sm:text-base text-xs"  data-aos="fade-down" data-aos-duration="1500">
+                  <a href="#projects" className="text-gray-400 hover:text-white cursor-pointer sm:text-base text-xs">
                     Projects
                   </a>
                 </li>
                 <li>
-                  <a href="#technologies" className="text-gray-400 hover:text-white cursor-pointer sm:text-base text-xs"  data-aos="fade-down" data-aos-duration="1500">
+                  <a href="#technologies" className="text-gray-400 hover:text-white cursor-pointer sm:text-base text-xs">
                     Technologies
                   </a>
                 </li>
                 <li>
-                  <a href="#aboutme" className="text-gray-400 hover:text-white cursor-pointer sm:text-base text-xs"  data-aos="fade-down" data-aos-duration="1500">
+                  <a href="#aboutme" className="text-gray-400 hover:text-white cursor-pointer sm:text-base text-xs">
                     About me
                   </a>
                 </li>
                 <li>
-                  <a href="#contactme" className="text-gray-400 hover:text-white cursor-pointer sm:text-base text-xs"  data-aos="fade-down" data-aos-duration="1500">
+                  <a href="#contactme" className="text-gray-400 hover:text-white cursor-pointer sm:text-base text-xs">
                     Contact me
                   </a>
                 </li>

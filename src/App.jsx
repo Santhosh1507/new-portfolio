@@ -63,22 +63,22 @@ function App() {
             <div>
               <ul className="flex gap-2 md:gap-4">
                 <li>
-                  <a href="#projects" className="text-gray-400 hover:text-white cursor-pointer">
+                  <a href="#projects" className="text-gray-400 hover:text-white cursor-pointer sm:text-base text-xs">
                     Projects
                   </a>
                 </li>
                 <li>
-                  <a href="#technologies" className="text-gray-400 hover:text-white cursor-pointer">
+                  <a href="#technologies" className="text-gray-400 hover:text-white cursor-pointer sm:text-base text-xs">
                     Technologies
                   </a>
                 </li>
                 <li>
-                  <a href="#aboutme" className="text-gray-400 hover:text-white cursor-pointer">
+                  <a href="#aboutme" className="text-gray-400 hover:text-white cursor-pointer sm:text-base text-xs">
                     About me
                   </a>
                 </li>
                 <li>
-                  <a href="#contactme" className="text-gray-400 hover:text-white cursor-pointer">
+                  <a href="#contactme" className="text-gray-400 hover:text-white cursor-pointer sm:text-base text-xs">
                     Contact me
                   </a>
                 </li>
@@ -94,7 +94,7 @@ function App() {
             <div className=" mt-16">
               <h2 className="font-bold text-3xl md:text-4xl">Hello, I'm Santhosh Kumar,</h2>
               <div>
-                <h2 className="font-bold text-3xl md:text-4xl mt-1 gradiant-text">web developer</h2>
+                <h2 className="font-bold text-xl md:text-4xl mt-1 gradiant-text">web developer</h2>
               </div>
               <div>
                 <p className="mt-4 text-gray-400">

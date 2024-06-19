@@ -8,6 +8,8 @@ import Facebook from "./assets/facebook.svg";
 import LinkedIn from "./assets/linkedin.svg";
 import ArrowDown from "./assets/arrow-down.svg";
 import { useEffect, useState } from "react";
+import { FaGithub } from "react-icons/fa";
+import { IoLogoLinkedin } from "react-icons/io5";
 import React from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -113,9 +115,17 @@ function App() {
                   communication, and passion
                 </p>
                 <a href="https://drive.google.com/file/d/1gQkzsXr_XDAAEIi91NCScvAI3wWBrOvs/view?usp=drive_link" className=" mt-10">
-                  <button className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700">
+                  <button className="px-8 shadow-gray-500 shadow-md py-5 mt-5 bg-gradient-to-t from-blue-500 rounded-full to-cyan-500 hover:from-blue-700 hover:to-cyan-700 hover:scale-105 duration-150">
                     Download resume
                   </button>
+                </a>
+              </div>
+              <div className=" flex flex-row gap-4 mt-5 sm:mt-8 text-4xl sm:text-5xl justify-center sm:justify-start">
+                <a href="https://github.com/Santhosh1507/">
+                  <FaGithub className=" text-blue-500 hover:text-blue-900 hover:scale-125 duration-150" />
+                </a>
+                <a href="https://www.linkedin.com/in/santhosh1507/">
+                  <IoLogoLinkedin className=" text-blue-500 hover:text-blue-900 hover:scale-125 duration-150" />
                 </a>
               </div>
             </div>
@@ -376,13 +386,8 @@ function App() {
           </div>
           <div>
             <ul className="flex gap-4">
-              <li >
-                <a>
-                  <img src={Facebook} className="w-5" />
-                </a>
-              </li>
-              <li >
-                <a>
+              <li>
+                <a href="https://www.linkedin.com/in/santhosh1507/">
                   <img src={LinkedIn} className="w-5" />
                 </a>
               </li>

@@ -106,11 +106,11 @@ function App() {
             <div className=" mt-16">
               <h2 className="font-bold text-2xl sm:text-4xl" >Hello, I'm Santhosh Kumar,</h2>
               <div>
-                <h2 className="font-bold text-xl sm:text-4xl mt-1 gradiant-text" >web developer</h2>
+                <h2 className="font-bold text-xl sm:text-4xl mt-1 gradiant-text" >Software developer</h2>
               </div>
               <div>
                 <p className="mt-4 text-gray-400" >
-                  Former Full Stack Developer specialist, seeking to apply
+                  Former Software Developer specialist, seeking to apply
                   competent development skills with focus on collaboration,
                   communication, and passion
                 </p>
@@ -223,14 +223,14 @@ function App() {
             <div className="mt-14 max-w-4xl m-auto" data-aos="zoom-in-up" data-aos-easing="linear" data-aos-duration="1200">
               <div>
                 <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">HTML</h2>
+                  <h2 className="font-semibold">HTML, CSS, JAVASCRIPT, Reactjs</h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
                 <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">CSS, Bootstrap</h2>
+                  <h2 className="font-semibold">Python, Django, AI, LLM</h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
                 <span className="w-full h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
@@ -238,7 +238,7 @@ function App() {
               <div className="mt-8">
                 <div className="flex justify-between items-center">
                   <h2 className="font-semibold">
-                    JavaScript
+                    MYSQL, PostgreSQL, MongoDB, SQl
                   </h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
@@ -246,10 +246,10 @@ function App() {
               </div>
               <div className="mt-8">
                 <div className="flex justify-between items-center">
-                  <h2 className="font-semibold">React</h2>
+                  <h2 className="font-semibold">Data Science</h2>
                   <p className="text-gray-500">Advanced</p>
                 </div>
-                <span className="w-[90%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
+                <span className="w-[100%] h-2 mt-2 bg-gradient-to-t from-blue-500 to-cyan-500 block rounded-md" />
               </div>
             </div>
           </div>
@@ -301,26 +301,26 @@ function App() {
             <h2 className="text-2xl font-semibold" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1200">About me</h2>
             <div className="mt-12 relative before:absolute before:top-0 before:left-16 before:rounded-full before:bottom-10 sm:before:bottom-2 before:w-1 before:bg-white  max-w-5xl m-auto">
               <div className="pl-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px] " data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
-                <h3 className="absolute left-0 text-lg font-semibold" >2024</h3>
+                <h3 className="absolute left-0 text-lg font-semibold" >2025</h3>
                 <p>
                   Graduated from Meenakshi College with a B.E in Computer Science and
-                  Engineering, achieving a total grade point average of 7.4%. My academic journey
+                  Engineering, achieving a total grade point average of 8.1%. My academic journey
                   has equipped me with a solid foundation and a drive to harness technology in
                   addressing real-world challenges.
                 </p>
               </div>
               <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px] " data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
-                <h3 className="absolute left-0 text-lg font-semibold">2024</h3>
+                <h3 className="absolute left-0 text-lg font-semibold">2025</h3>
                 <p>
                   Became more interested in IT and decided to try programming.
                   Underwent python course and made a project.
                 </p>
               </div>
               <div className="pl-24 mt-24 relative before:w-4 before:h-4 before:bg-gradient-to-t before:from-blue-500 before:to-cyan-500 before:absolute before:rounded-full before:left-[58px]" data-aos="fade-up" data-aos-easing="linear" data-aos-duration="600">
-                <h3 className="absolute left-0 text-lg font-semibold">2024</h3>
+                <h3 className="absolute left-0 text-lg font-semibold">2025</h3>
                 <p>
                   Worked out in which field I want to build a developer's career
-                  and started to learn web Development.
+                  and started to learn Software Development.
                 </p>
               </div>
             </div>
@@ -382,7 +382,7 @@ function App() {
       <footer>
         <div className="container m-auto flex justify-between px-4 py-6">
           <div>
-            <p className="text-gray-300 text-sm">Copyright @ 2024</p>
+            <p className="text-gray-300 text-sm">Copyright @ 2025</p>
           </div>
           <div>
             <ul className="flex gap-4">
